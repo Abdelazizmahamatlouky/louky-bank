@@ -1,0 +1,40 @@
+# Build artifacts
+target/
+build/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Git
+.git/
+.gitignore
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Tests
+src/test/
+
+# Documentation
+README.md
+docs/
+*.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kubernetes / Docker local
+docker-compose.yml
+docker-compose.*.yml
